@@ -1,0 +1,22 @@
+export const pokemonData = [
+  { name: "Pikachu", type: "Electric", level: 42 },
+  { name: "Charizard", type: "Fire", level: 50 },
+  { name: "Squirtle", type: "Water", level: 15 },
+  { name: "Bulbasaur", type: "Grass", level: 16 },
+  { name: "Jigglypuff", type: "Fairy", level: 23 },
+  { name: "Machop", type: "Fighting", level: 28 },
+  { name: "Geodude", type: "Rock", level: 22 },
+  { name: "Gyarados", type: "Water", level: 48 },
+  { name: "Vaporeon", type: "Water", level: 45 },
+  { name: "Jolteon", type: "Electric", level: 45 },
+  { name: "Flareon", type: "Fire", level: 45 },
+  { name: "Psyduck", type: "Water", level: 32 },
+  { name: "Meowth", type: "Normal", level: 30 },
+  { name: "Gengar", type: "Ghost", level: 58 },
+  { name: "Onix", type: "Rock", level: 38 },
+  { name: "Clefairy", type: "Fairy", level: 24 },
+  { name: "Venusaur", type: "Grass", level: 52 },
+  { name: "Blastoise", type: "Water", level: 52 },
+  { name: "Nidoking", type: "Poison", level: 50 },
+  { name: "Nidoqueen", type: "Poison", level: 50 }
+];
