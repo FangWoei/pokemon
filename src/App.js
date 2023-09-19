@@ -63,6 +63,9 @@ const PokemonList = () => {
   return (
     <div className="container py-5">
       <div className="row">
+        <div className=" d-flex justify-content-center align-items-center">
+          <img src="/image/pokemon.png" className="img-fluid w-50" />
+        </div>
         <div className="col-6">
           <input
             type="text"
@@ -114,6 +117,9 @@ const PokemonList = () => {
         {pokemon.map((poke) => (
           <div key={poke.name} className="col-lg-4 col-md-6 col-sm-12 mb-5">
             <div className="card">
+              <div className="card-image d-flex justify-content-center align-items-center">
+                <img src={"/image/" + poke.image} className="w-50 mt-5" />
+              </div>
               <div className="card-title">
                 <h1>{poke.name}</h1>
               </div>
